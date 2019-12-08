@@ -9,7 +9,7 @@ pipeline {
   parameters {
     string(name: 'DOCKER_IMAGE', defaultValue: 'm4nuc/python-calc', description: 'Docker image')
     string(name: 'DOCKER_CREDENTIALS', defaultValue: 'dockerhub_credentials', description: 'Credentials on Docker Hub organization')
-    string(name: 'SLACK_CHANNEL', defaultValue: 'jenkins-blazing', description: '')
+    string(name: 'SLACK_CHANNEL', defaultValue: 'jenkins-blazingsql', description: '')
   }
   
   environment {
